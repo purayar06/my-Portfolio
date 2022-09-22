@@ -145,11 +145,17 @@ section {
 
 /*Header-content*/
 
-.box {
+.main-box {
     background-color: rgba(0, 180, 216, .5);
     border-radius: var(--br-sm-2);
     padding-left: 2rem;
     padding-right: 2rem;
+}
+
+.main-box:hover {
+    cursor: default;
+    transform: translateY(-5px);
+    box-shadow: 1px 4px 15px #00b4d8;
 }
 
 .header-content {
@@ -452,6 +458,12 @@ section {
     padding-bottom: 2rem;
 }
 
+.port-box:hover {
+    cursor: default;
+    transform: translateY(-5px);
+    box-shadow: 1px 4px 15px #00b4d8;
+}
+
 .port-title {
     text-transform: uppercase;
     font-size: 1.4rem;
@@ -549,6 +561,24 @@ section {
 .portfolio-item:hover .hover-items {
     opacity: 1;
     transform: scale(1);
+}
+
+
+/* contact */
+
+.contact-box {
+    background-color: rgba(0, 180, 216, .5);
+    border-radius: var(--br-sm-2);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.contact-box:hover {
+    cursor: default;
+    transform: translateY(-5px);
+    box-shadow: 1px 4px 15px #00b4d8;
 }
 
 .contact-content-con {
