@@ -446,6 +446,16 @@ section {
 
 /* //.portfolio */
 
+.list {
+    text-align: center;
+}
+
+ul {
+    list-style-type: circle;
+    display: inline-block;
+    text-align: justify;
+}
+
 .port-text {
     padding: 2rem 0;
     text-align: center;
